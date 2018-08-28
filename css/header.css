@@ -1,0 +1,386 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+#header{
+	width: 100%;
+	height: 30px;
+	background: #000;
+}
+.header_cont{
+	width: 1193px;
+	height: 100%;
+	margin: 0 auto;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+}
+.header_cont span{
+	float: left;
+}
+.header_cont .enter{
+	float: left;
+	margin-left: 18px;
+}
+.enter li{
+	float: left;
+}
+.enter li:nth-of-type(2){
+	margin: 0 10px;
+}
+.enter li:nth-of-type(4){
+	margin-left: 20px;
+}
+.header_cont .nav_move{
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-left: 70px;
+	overflow: hidden;
+}
+.nav_move_banner{
+	height: 60px;
+}
+.header_cont .nav_move p{
+	
+}
+.header_cont .help{
+	float: right;
+}
+.header_cont .help li{
+	float: left;
+	margin-right: 25px;
+}
+.header_cont .help li:nth-of-type(5){
+	margin: 0;
+}
+.header_cont .help li>i{
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.header_cont .help li:nth-of-type(1)>i{
+	background: url(../img/my-sephora.png);
+}
+.header_cont .help li:nth-of-type(2)>i{
+	background: url(../img/vip-club.png);
+}
+.header_cont .help li:nth-of-type(3)>i img{
+	width: 13px;
+	height: 13px;
+	margin-bottom: 10px;
+}
+/*搜索框和购物车部分*/
+.seach{
+	width: 100%;
+	height: 84px;
+}
+.seach_content{
+	width: 1293px;
+	height: 84px;
+	margin: 0 auto;
+}
+.seach_content>i{
+	float: left;
+	text-align: center;
+	font-size: 35px;
+	/*margin-top:20px;*/
+	margin-right: 80px;
+	letter-spacing: 10px;
+	margin-top: 23px;
+	cursor: pointer;
+}
+.seach_box{
+	width: 640px;
+	height: 54px;
+	float: left;
+}
+.seach_box>input{
+	width: 540px;
+	height: 35px;
+	margin-top: 25px;
+}
+.seach_box>button{
+	width: 90px;
+	height: 38px;
+	margin-left:-5px;
+	border: none;
+	background: black;
+	color: white;
+	margin-top: 25px;
+}
+.seach_box li{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	color: #ccc;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.seach_box li:hover{
+	color: red;
+}
+.seach_content>.bycar{
+	width: 187px;
+	height: 35px;
+	border: 1px solid #ccc;
+	/*border-bottom: transparent;*/
+	float: right;
+	margin-top: 27px;
+	position: relative;
+}
+.bycar:after{
+	content: "";
+	/*clear: both;*/
+	position: absolute;
+	height: 1px;
+	width: 187px;
+	/*border-bottom: transparent;*/
+	background: white;
+	top: 35px;
+	z-index: -1;
+}
+
+.bycar_content{
+	width: 110px;
+	height: 28px;
+	margin: 0 auto;
+	margin-top: 3px;
+	cursor: pointer;
+}
+.bycar_content>i{
+	display: inline-block;
+	width: 18px;
+	height: 28px;
+	vertical-align: middle;
+	background: url(../img/shopping_bag.png);
+}
+.bycar_content a{
+	color: red;
+	margin: 0 3px 0 3px;
+}
+.bycar_content .log{
+	width: 500px;
+	height: 150px;
+	background: white;
+	border: 1px solid #ccc;
+	position: absolute;
+	right: -1px;
+	/*bottom: -150px;*/
+	top: 35px;
+	display: none;
+	z-index: 4;
+}
+.bycar:hover .log{
+	display: block;
+}
+.bycar:hover.bycar:after{
+	z-index: 5;
+}
+.log_content{
+	width: 400px;
+	height: 100px;
+	margin: 25px auto ;
+}
+.log_content_left{
+	float: left;
+	margin-top: 10px;
+}
+.log_content_font{
+	float: left;
+	font-size:12px;
+	margin: 20px 0 0 10px;
+	color: #ccc;
+}
+.log_content_font>button{
+	width: 50px;
+	margin-top: 12px;
+	background: red;
+	color: white;
+	border: none;
+}
+#nav{
+	width: 100%;
+	height: 40px;
+}
+.sub_nav{
+	width: 1293px;
+	height: 40px;
+	margin: 0 auto;
+}
+.table{
+	width: 240px;
+	height: 40px;
+	background: url(../img/classified.png);
+	line-height: 40px;
+	text-indent: 1em;
+	float: left;
+	position: relative;
+}
+.table>a{
+	cursor: pointer;
+	color:white;
+}
+.sub_nav>ul{
+	float: left;
+	overflow: hidden;
+}
+.sub_nav>ul>li{
+	float: left;
+	line-height: 40px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+.sub_nav>ul>li:hover{
+	color: red;
+}
+.promise{
+	width: 160px;
+	height: 40px;
+	float: right;
+	cursor: pointer;
+}
+.promise>img{
+	float: left;
+}
+.promise>span{
+	font-size: 11px;
+	float: right;
+}
+.promise>p{
+	font-size: 16px;
+	font-weight: bold;
+	float: right;
+	margin-right: 16px;
+}
+/*table切换*/
+.table_content{
+	position: absolute;
+	width: 100%;
+	height: 550px;
+}
+.table_content>.first_nav>li{
+	color: black;
+	height: 60px;
+	line-height: 20px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	background: #ffffff;
+	cursor: pointer;
+	position: relative;
+	
+}
+.second_nav>li{
+	float: left;
+	font-size: 12px;
+	margin-top: -20px;
+	line-height: 60px;
+	color: #8a8a8a;
+	cursor: pointer;
+	
+}
+.table_content>.first_nav>li:hover{
+	background: #f5f5f5;
+	border-right: transparent;
+}
+.second_nav>li:hover{
+	color: red;
+}
+.first_nav i{
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	background: url(../img/navigation_sprite_wrap.png);
+	background-position: -59px 60px;
+	position: absolute;
+}
+.first_nav>li:nth-of-type(2)>i{
+	left: -35px;
+	z-index: -1;
+}
+.first_nav>li:nth-of-type(6)>i{
+	right: -20px;
+	top: -0px;
+	z-index: 1;
+}
+.switcher_parent{
+	width: 1053px;
+	height: 537px;
+	position: absolute;
+	/*z-index: 3;*/
+	background: white;
+	left:240px;
+	top: 0;
+	border: 1px solid #ccc;
+	border-left: transparent;
+	display: none;
+}
+.switcher{
+	width: 1053px;
+	height: 537px;
+	display: none;
+	background: white;
+}
+.switcher_content{
+	width: 680px;
+	height: 470px;
+	margin: 35px 0 0 35px;
+	float: left;
+}
+.switcher_content>h3{
+	height: 50px;
+	border-bottom: 1px solid #eee;
+	text-indent: 0;
+}
+.switcher_pic{
+	width: 300px;
+	height: 470px;
+	float: left;
+	margin: 35px 0 0 5px;
+	cursor: pointer;
+}
+.switcher_recom{
+	width: 100%;
+	height: 360px;
+}
+.switcher_pic img{
+	width: 300px;
+	height: 470px;
+	margin-left: -15px;
+	cursor: pointer;
+	
+}
+.switcher_recom>ul{
+	float: left;
+	overflow: hidden;
+	margin:0 60px 0 0;
+	text-indent: 0;
+}
+.switcher_recom>ul>li{
+	
+}
+.switcher_recom>ul>li>div{
+	width: 160px;
+	overflow: hidden;
+}
+.switcher_recom>ul>li>div>a{
+	margin:0 22px 0 0;
+	color: #ccc;
+	font-size: 12px;
+	float: left;
+	line-height: 18px;
+	cursor: pointer;
+}
+.switcher_login{
+	width: 100%;
+	height: 60px;
+}
+.switcher_recom>ul>li>div>a:hover{
+	color: red;
+}

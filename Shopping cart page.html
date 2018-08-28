@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{
+				background: #ccc;
+			}
+			ul{
+				list-style: none;
+			}
+			.head{
+				width: 100%;
+				height: 120px;
+				background: white;
+/*				margin-top: 125px;
+*/			}
+			.head_cont{
+				width: 1192px;
+				height: 120px;
+				margin: 0 auto;
+			}
+			.head_cont_right{
+				width: 503px;
+				height: 70px;float: right;
+				border-bottom: 2px solid #ccc;
+			}
+			.head_cont_right div{
+				width: 123px;
+				height: 50px;
+				float: left;
+				background: url(img/checkout_header_step.png) no-repeat;
+				margin-top: 20px;
+				margin-right: 40px;
+				
+			}
+			.head_cont_right div:nth-of-type(1){
+				border-bottom:2px solid black;
+				
+			}
+			.head_cont_right div:nth-of-type(2){
+				background-position: 0 -50px;
+			}
+			.head_cont_right div:nth-of-type(3){
+				background-position: 0 -100px;
+			}
+			.mybucar{
+				width: 1192px;
+				margin: 30px auto 30px;
+				overflow: hidden;
+				background: white;
+			}
+			.commodity{
+				width: 100%;
+				height: 150px;
+				margin-left: 35px;
+				padding-top: 30px;
+				box-sizing: border-box;
+				position: relative;
+			}
+			.shopping{
+				width: 450px;
+				height: 80px;
+				margin: 115px auto;
+			}
+			.shopping div{
+				width: 60px;
+				height: 80px;
+				background: url(img/packa.png)no-repeat center center;
+				float: left;
+			}
+			#like{
+				width:100%;
+				height: 342px;
+				background: #ccc;
+			}
+			.like_cont{
+				width: 1192px;
+				height: 342px;
+				margin: 0 auto;
+			}
+			.like_cont_head{
+				width: 100%;
+				height: 30px;
+			}
+			.like_cont_head p{
+				line-height: 10px;
+				float: left;
+			}
+			.like_cont_head div{
+				float: right;
+				width: 50px;
+				height: 30px;
+				background: url(img/checkout_tab_slider_control.png);
+			}
+			.like_cont_head div:nth-child(2){
+				background-position: 51px 30px;
+			}
+			#banner{
+				width: 100%;
+				height: 308px;
+				overflow: hidden;
+				background: white;
+			}
+			.banner_move{
+				width: 3646px;
+				height: 308px;
+				transition: all 1s;
+			}
+			.banner_pic{
+				width: 1194px;
+				height: 308px;
+				float: left;
+				
+			}
+			.banner_pic div{
+				width: 238px;
+				height: 308px;
+				padding-left: 5px;
+				box-sizing: border-box;
+				float: left;
+			}
+			.banner_pic div span{
+				color: red;
+			}
+			.mybucar{
+				position: relative;
+			}
+			.mybucar ul{
+				width: 1192px;
+				height:47px;
+				border-bottom: 1px solid #ccc;
+				position: relative;
+				text-align: center;
+			}
+			.mybucar #first{
+				left: 15px;
+				top: 15px;
+				position: absolute;
+			}
+			.mybucar ul li{
+				float: left;
+				height: 47px;
+				line-height: 47px;
+			}
+			.mybucar ul li:nth-of-type(1){
+				width: 120px;
+			}
+			.mybucar ul li:nth-of-type(2){
+				width: 464px;
+			}
+			.mybucar ul li:nth-of-type(3){
+				width: 150px;
+			}
+			.mybucar ul li:nth-of-type(4){
+				width: 170px;
+			}
+			.mybucar ul li:nth-of-type(5){
+				width: 144px;
+			}
+			.mybucar ul li:nth-of-type(6){
+				width: 50px;
+			}
+			.img{
+				width: 90px;
+				height: 90px;
+				padding: 8px;
+				box-sizing: border-box;
+				margin-right: 20px;
+				display: inline-block;
+				position: relative;
+			}
+			.img img{
+				width: 74px;
+				height: 74px;
+				display: block;
+				vertical-align: middle;
+			}
+			.ck{
+				position: absolute;
+				top: 50%;
+				margin-top: 0px;
+				left: -17px;
+			}
+			.describe{
+				width: 464px;
+				color: #000;
+				line-height: 12px;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.describe h5{
+				line-height: 0;
+			}
+			.describe p{
+				font-size: 14px;
+				line-height: 0;
+			}
+			.describe span{
+				font-size: 12px;
+			}
+			.unit{
+				width: 150px;
+				vertical-align: top;
+				display: inline-block;
+			}
+			.amount{
+				text-align: center;
+				margin-left: -70px;
+				width: 176px;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.amount i{
+				width: 21px;
+				height: 21px;
+				display: inline-block;
+				line-height: 21px;
+				text-align: center;
+				border: 1px solid #eee;
+				color: #474747;
+				cursor: pointer;
+				font-weight: 400;
+				font-style: normal;
+			}
+			.amount span{
+				width: 37px;
+				height: 21px;
+				display: inline-block;
+				border-top: 1px solid #eee;
+				border-bottom: 1px solid #eee;
+				text-align: center;
+				color: #000;
+				line-height: 21px;
+				margin: -5px;
+				padding: 0;
+				outline: 0;
+			}
+			.subtotal{
+				width: 144px;
+				line-height: 16px;
+				display: inline-block;
+				vertical-align: top;
+				color: red;
+				font-size: 12px;
+				-webkit-text-size-adjust: none;
+				font-family: arial,Microsoft YaHei,tahoma,Hiragino Sans GB,\5b8b体,sans-serif;
+				margin-left: 68px;
+			}
+			.del{
+				width: 50px;
+			    vertical-align: top;
+			    display: inline-block;
+				margin-left: -20px;
+			}
+			.del i{
+				width: 19px;
+				height: 19px;
+				display: block;
+				margin: 0 auto;
+				cursor: pointer;
+				background: url(img/55.png) no-repeat;
+			}
+			.give{
+				width: 1095px;
+				margin: 0 auto;
+				height: 70px;
+			}
+			.give div{
+				background: #f6670c;
+			    width: 36px;
+			    height: 20px;
+			    font-size: 12px;
+			    color: #f3f4f6;
+			    text-align: center;
+			    line-height: 20px;
+			    margin: 0 10px 0 0;
+			    display: inline-block;
+			}
+			.give p{
+				display: inline-block;
+				color: #000;
+				font-size: 12px;
+			}
+			.give a{
+				text-decoration: none;
+				font-size: 12px;
+			}
+			.discounts{
+				width: 1190px;
+				height: 210px;
+				background: white;
+				margin: 0 auto;
+			}
+			.youhui{
+				width: 130px;
+				height: 170px;
+				margin: 0 auto;
+				text-align: center;
+				width: 130px;
+				height: 64px;
+				padding: 56px 0;
+			}
+			.youhui div{
+				width: 46px;
+				height: 30px;
+				background: url(img/66.png);
+				background-position: -20px 0;
+				margin: 0 auto;
+			}
+			.close{
+				width: 1190px;
+				height: 60px;
+				margin: 20px auto;
+				background: white;
+			}
+			.close_left{
+				width: 347px;
+				height: 20px;
+				line-height: 20px;
+				display: inline-block;
+				padding: 20px 0;
+				float: left;
+				color: #000;
+				font-size: 12px;
+			}
+			.close_left div{
+				display: inline-block;
+				width: 1px;
+				height: 14px;
+				background-color: #ccc;
+				vertical-align: middle;
+				margin-right: 30px;
+				margin: 0 auto;
+			}
+			.close_left a:nth-of-type(1){
+				margin-right: 30px;
+				display: inline-block;
+				color: #474747;
+				text-decoration: none;
+				line-height: 20px;
+			}
+			.close_left a:nth-of-type(2){
+				margin-right: 30px;
+				display: inline-block;
+				color: #474747;
+				text-decoration: none;
+				line-height: 20px;
+			}
+			.close_left a:nth-of-type(3){
+				background-color: #eee;
+				color: #000;
+				border-radius: 100px;
+				display: inline-block;
+				width: 130px;
+				height: 20px;
+				line-height: 20px;
+				text-indent: 8px;
+				position: relative;
+			}
+			.close_right{
+				width: 398px;
+				height: 60px;
+				float: right;
+			}
+			.total{
+				width: 234px;
+				height: 60px;
+				text-align: center;
+				float: left;
+			}
+			.off{
+				width: 140px;
+				height: 60px;
+				background-color: #e00;
+				text-align: center;
+				line-height: 60px;
+				font-size: 20px;
+				float: left;
+				color: #fff;
+				margin-left: 30px;
+				cursor: pointer;
+				margin: 0 auto;
+			}
+			.box{
+				width: 100%;
+				background: red;
+			}
+			/*#header{
+				width: 100%;
+				height:154px;
+			}*/
+		</style>
+	</head>
+	<body>
+		<!--//<div id="header"></div>-->
+		<div class="head">
+			<div class="head_cont">
+				<div class="head_cont_left" style="float: left;">
+					<img src="img/sep_top_Logo.png"/>
+				</div>
+				<div class="head_cont_right">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+		<!--购物车-->
+		<div class="mybucar">
+			
+				<ul class="tab">
+					<input type="checkbox" name="" id="first" value="" />
+					<li>全选</li>
+					<li>商品信息</li>
+					<li>单价(元)</li>
+					<li>数量</li>
+					<li>小计(元)</li>
+					<li>操作</li>
+				</ul>
+				<div class="box">
+			<!--<div class="commodity">
+				<input type="checkbox" name="" id="second" value="" />
+				<div class="img">
+					<img src="img/1_n_06254_50x50(2).jpg"/>
+				</div>
+				<div class="describe">
+					<h5>PETERTHOMASROTH</h5>
+					<p>彼得罗夫青润粉颜套装</p>
+					<span>规格：套装</span>
+				</div>
+				<div class="unit">
+					<span>580元</span>
+				</div>
+				<div class="amount">
+					<i style="color: #ccc;">-</i>
+					<span>1</span>
+					<i style="color: black;">+</i>
+				</div>
+				<div class="subtotal">
+					588元
+				</div>
+				<div class="del">
+					<i></i>
+				</div>
+			</div>-->
+			</div>
+			<div class="shopping">
+				<div></div>
+				<span style="color: #ccc;">
+					购购物车空空的哦，去看看心仪的产品吧
+				</span>
+				<br />
+				<a>去购物></a>
+			</div>
+			<!--<div class="give">
+				<div>满赠</div>
+				<p>可获赠一件商品</p>
+				<a href="">查看详情></a>
+			</div>-->
+		</div>
+		<!--优惠卷-->
+		<div class="discounts">
+			<h2>优惠卷</h2>
+			<div class="youhui">
+				<div></div>
+				<span>你目前没有优惠卷</span>
+			</div>
+		</div>
+		<!--结算-->
+		<div class="close">
+			<div class="close_left">
+				<input type="checkbox" id="all" />
+				<a>全选</a>
+				<a>删除全部</a>
+				<div></div>
+				<a>联系客服</a>
+				<div class="back" style="margin-left: 82px; width: 80px; float: left;background: white;color: red;">回到主页</div>
+			</div>
+			<div class="close_right">
+				<div class="total">
+					<p>商品总额:<span></span></p>
+				</div>
+				<div class="off">立即结算</div>
+			</div>
+		</div>
+		<!--猜你喜欢-->
+		<div id="like">
+			<div class="like_cont">
+				<div class="like_cont_head">
+					<p>猜你喜欢</p>
+					<div class="btn"></div>
+					<div class="btn"></div>
+				</div>
+				<!--轮播图-->
+			<div id="banner">
+				<div class="banner_move">
+					<!--1-->
+					<div class="banner_pic">
+						<div>
+							<img src="aaa/1_n_06254_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_06253_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_06244_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_06239_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_06166_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+					</div>
+					<!--2-->
+					<div class="banner_pic">
+						<div>
+							<img src="aaa/1_n_05476_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_05500_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_05532_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_06054_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_05914_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+					</div>
+					<!--3-->
+					<div class="banner_pic">
+						<div>
+							<img src="aaa/1_n_06012_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_06216_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_06186_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="aaa/1_n_06120_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+						<div>
+							<img src="img/1_n_06216_180x180.jpg"/>
+							<p>LDADCDD</p>
+							<p>兰蔻精华水收缩液</p>
+							<span>￥250.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</body>
+	<script src="jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/cookie222.js" ></script>
+	<script type="text/javascript" src="js/base.js" ></script>
+	<script>
+		$(function(){
+			$(".back").click(function(){
+				window.location="homepage.html"
+			})
+			var x=0
+			$(".btn:eq(0)").click(function(){
+				x++
+				if(x>2){
+					x=2
+					$(this).css({backgroundPositionY:90})
+					$(".btn:eq(1)").css({backgroundPositionY:30})
+					
+				}else{
+				$(".banner_move").css("margin-left",-1192*x+"px")
+				}
+			})
+					$(".btn:eq(1)").click(function(){
+				x--
+				if(x<0){
+					x=0
+					$(this).css({backgroundPositionY:90})
+					$(".btn:eq(0)").css({backgroundPositionY:30})
+				}else{
+				$(".banner_move").css("margin-left",-1192*x+"px")
+				}
+			})
+							//购物车js
+			//获取cookie的数据---datas的数组
+			var listObj=getAll();
+			console.log(listObj)
+			var box=$(".box");
+			var tab=document.querySelector(".tab");
+			var commodity=document.querySelectorAll(".commodity");
+			var discounts=document.querySelector(".discounts")
+			var shopping=document.querySelector(".shopping")
+			var close=document.querySelector(".close")
+			 //如果数据cookie的数据为空 显示购物车为空--隐藏
+			         if(listObj.length==0){
+			         	shopping.style.display="block";
+			         	discounts.style.display="none"
+			         	tab.style.display="none";
+			         	close.style.display="none"
+//			         	commodity.style.display="none";
+			         }else{
+			         	shopping.style.display="none";
+			         	tab.style.display="block";
+			         	close.style.display="block"
+			         	discounts.style.display="block"
+//			         	commodity.style.display="block";
+			         	//根据数组动态生成页面
+			         	var merchandisess="";
+//			         	console.log(listObj)
+			         	for(var i=0;i<listObj.length;i++){
+						    merchandisess+='<div class="commodity"pid="'+listObj[i].pid+'">'
+						    +'<input type="checkbox" name="" class="ck" value="" />'
+						    +'<div class="img">'
+							+'<img src="'+listObj[i].imgSrc+'"/>'
+							+'</div>'
+							+'<div class="describe">'
+								+'<h5>'+listObj[i].ename+'</h5>'
+								+'<p>'+listObj[i].cname+'</p>'
+								+'<span>规格：套装</span>'
+							+'</div>'
+							+'<div class="unit">'
+								+'<span>'+listObj[i].price+'</span>'
+							+'</div>'
+							+'<div class="amount">'
+								+'<i style="color: #ccc;"class="down">-</i>'
+								+'<span class="zonghe">'+listObj[i].pcount+'</span>'
+								+'<i style="color: black;"class="up">+</i>'
+							+'</div>'
+							+'<div class="subtotal">'
+								+listObj[i].pcount*listObj[i].price
+							+'</div>'
+							+'<div class="del"><i></i></div>'
+							+'</div>'
+							
+			         	}
+			         	 box.after(merchandisess)
+			}
+			//获取总价方法
+			//取出所有选择框
+			var inps=document.querySelectorAll(".zonghe");
+			var cks=document.querySelectorAll(".ck");
+			var showTotal=document.querySelector(".total p span")
+			function getTotalPrice(){
+			 	cks=document.querySelectorAll(".ck");
+			 	var sum=0;
+			 		for(var i=0;i<cks.length;i++){
+			 			if(cks[i].checked==true){
+ 							var ckpan=cks[i].parentNode;
+			 				var temp=ckpan.children[5].innerHTML;
+			 				sum+=Number(temp);
+//			 				console.log(sum)
+//			 				$(".total p span").html(sum)
+			 			}
+			 		}
+			 		return sum;
+			}
+//			getTotalPrice()
+			 //所有复选框的onchange事件
+			   for(var i=0;i<cks.length;i++){
+			   	cks[i].onchange=function(){
+			   		ischeckAll();
+			   		showTotal.innerHTML=getTotalPrice();
+			   	}
+			  }
+//			  //全选操作---从新计算总价
+			  var checkall=document.getElementById("first");
+			  var checkall2=document.getElementById("all");
+//			  console.log(checkall2)
+			  checkall.onchange=function(){
+			  		for(var i=0;i<cks.length;i++){
+			  			cks[i].checked=this.checked;
+			  			checkall2.checked=this.checked;
+			  		}
+			  		showTotal.innerHTML=getTotalPrice();
+			  }
+			   checkall2.onchange=function(){
+			  		for(var i=0;i<cks.length;i++){
+			  			cks[i].checked=this.checked;
+			  			checkall.checked=this.checked;
+			  		}
+			  		showTotal.innerHTML=getTotalPrice();
+			  }
+			  //判定全选函数
+			  function ischeckAll(){
+			  	var flag=true;
+			  	for(var i=0;i<cks.length;i++){
+			  		if(cks[i].checked==false){
+			  			flag=false;
+			  		}
+			  	}
+				  	if(flag){
+				  		checkall.checked=true;
+				  		checkall2.checked=true;
+				  	}else{
+				  		checkall.checked=false;
+				  		checkall2.checked=false;
+				  	}
+			  		
+			  }
+			//增加商品数量--------------
+				var add=document.getElementsByClassName("up");
+				var jian=document.getElementsByClassName("down");
+//				console.log(jian)
+//				所有输入框
+				
+//				//取出删除按钮
+				var dels=document.querySelectorAll(".del");
+				for(var i=0;i<add.length;i++){
+						 add[i].index=i;
+						 jian[i].index=i;
+						add[i].onclick=function(){
+							var txtnum=this.previousElementSibling;
+							txtnum.innerHTML=Number(txtnum.innerHTML)+1;
+							var commodity=this.parentNode.parentNode
+							var pid=commodity.getAttribute("pid");
+							updateNum(pid,1);
+							
+							//取出价格
+//						var price=document.querySelector(".unit span").innerHTML;
+//						var subtotal=document.querySelectorAll(".subtotal")
+						//给小计赋值
+//					subtotal[this.index].innerHTML=Number(txtnum.innerHTML)*Number(price);
+//					var y=0
+//					$.each(subtotal, function(index,ele) {
+//						y+=Number($(this).html())
+//					});
+//					console.log(y)
+//					var y=0;
+//					for(var x=0,x<subtotal.length,x++){
+//						y+=subtotal[x].innerHTML
+//					}
+//					var rental=document.querySelector(".total span")
+//					rental.innerText=parseInt(y)+"元";
+//					console.log(rental.innerHTM)					
+						//判断是否选中
+						var myck=commodity.children[0];
+						if(myck.checked==true){
+							showTotal.innerHTML=getTotalPrice();
+						}
+					}
+					//减数量-----
+					jian[i].onclick=function(){
+						var texnum=this.nextElementSibling;
+						
+						texnum.innerHTML=Number(texnum.innerHTML)-1;
+						//更新cookie
+						var commodity=document.querySelector(".commodity");
+						var pid=commodity.getAttribute("pid");
+						if(texnum.innerHTML<1){
+							texnum.innerHTML=1;
+						}else{
+							updateNum(pid,-1);
+						}
+//						var price=document.querySelector(".unit span").innerHTML;
+//						var subtotal=$(".subtotal")
+//						$.each(subtotal,function(index,ele){
+//							$(this).innerHTML=Number(texnum.innerHTML)*Number(price);
+//						})
+						//小计赋值
+//					subtotal[this.index].innerHTML=Number(texnum.innerHTML)*Number(price);
+//						var mycks=commodity.children[0];
+//						
+//						if(mycks.checked==true){
+//							//获取总价格
+//							showTotal.innerHTML=getTotalPrice();
+//						}
+					}
+					
+						
+					//输入框事件
+//					inps[i].onblur=function(){
+//						var num=parseInt(this.innerHTML);
+//							//输入不能小于1
+//							this.value=num;
+//						if(num<1||isNaN(num)){
+//							alert("输入有误");
+//							this.value=1;
+//							return;
+//						}
+//						var tr=this.parentNode.parentNode;
+//					
+//						var pid=tr.getAttribute("pid");
+//						var price=tr.children[4].innerHTML;
+//						tr.children[5].innerHTML=Number(num)*Number(price);
+//						var mychek=tr.children[0].children[0];
+//						if(mychek.checked==true){
+//							//获取总价格
+//							showTotal.innerHTML=getTotalPrice();
+//						}
+//						var listObj=getAll();
+//						for(var j=0;j<listObj.length;j++){
+//							if(pid==listObj[j].pid){
+//								listObj[j].pcount=num;
+//							}
+//						}
+//						//改变后从新添加cookie
+//						listObjstr=JSON.stringify(listObj);
+//						setCookie("datas",listObjstr,50);
+//						
+//					}
+					//删除操作--------------------
+					$(".close_left a").click(function(){
+						$(".commodity").remove();
+					})
+					//var discounts=document.querySelectora(".discounts")
+					dels[i].onclick=function(){
+						var commodity=this.parentNode.parentNode
+						var pid=commodity.getAttribute("pid");
+						//删除自己本身-
+						commodity.remove();
+						delProduct(pid);
+						//判断没有商品
+						if(commodity.children.length==0){
+							console.log(commodity.children.length==0)
+							close.style.display="none";
+			         		tab.style.display="block";
+							discounts.style.display="none";	
+						}
+						showTotal.innerHTML=getTotalPrice();
+							//删除后从新加载
+//						window.location.reload();
+					}
+				}
+//				
+		})
+	</script>
+</html>

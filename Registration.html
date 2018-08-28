@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/Registration.css" />
+		<title></title>
+	</head>
+	<body>
+		<div id="head">
+			<div class="head_cont">
+				<div class="name"></div>
+				<span>欢迎注册</span>
+				<div class="register">
+					<p>已有账号?</p>
+					<ul>
+						<li>立即登录</li>
+						<li class="dian"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="content_register">
+				<div class="form">
+					<div class="form_verify">
+						<span>图形验证码</span>
+						<input type="text" id="mytext_code"/>
+						<div class="code"><img src="img/111.png"/></div>
+					</div>
+					
+					<div class="form_verify">
+						<span>手机号</span>
+						<input type="text" placeholder="请输入手机号" id="mytext_phonenum"/>
+						<div style="display: none;">手机号码不对</div>
+					</div>
+					
+					<div class="form_verify">
+						<span>短信验证码</span>
+						<input type="text" id="shorst" />
+						<div class="code" style="display: none;"></div>
+						
+					</div>
+					
+					<div class="form_verify">
+						<span>输入密码</span>
+						<input type="text" placeholder="输入密码" id="pass"/>
+						<div style="display: none;">密码格式错误</div>
+					</div>
+					
+					<div class="form_verify">
+						<span>确认密码</span>
+						<input type="text" placeholder="请再次输入密码" id="rpass"/>
+						<div style="display: none;">两次密码不一致</div>
+					</div>
+					<button id="register">同意条款并注册</button>
+					<div class="read">
+						<p>阅读(丝芙兰用户协议)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--脚步-->
+		<div id="footer"></div>
+	</body>
+	<script src="jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/cookie222.js" ></script>
+	<script type="text/javascript" src="js/Registration.js" ></script>
+</html>

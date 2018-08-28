@@ -1,0 +1,85 @@
+{
+	"skin":[
+	            	{"pid":"1001","brand":"LANCONME","imgsrc":"blank/1.jpg","name":"倩碧18春夏三步曲经典护","price":"￥695.00"},
+	            	{"pid":"1002","brand":"DJJJG","imgsrc":"blank/2.jpg","name":"兰蔻精华肌底液(黑体夜啊啊啊)","price":"￥760.00"},
+	            	{"pid":"1003","brand":"QFWF","imgsrc":"blank/3.jpg","name":"馥蕾诗睡莲活妍面霜&花瓣水双享套装","price":"￥850.00"},
+	            	{"pid":"1004","brand":"UFGHD","imgsrc":"blank/4.jpg","name":"植村秀新绿茶新肌洁颜油美肤尊享礼盒","price":"￥725.00"},
+	            	{"pid":"1005","brand":"CDFBH","imgsrc":"blank/5.jpg","name":"雅诗兰黛新肌透修护眼部密集精华惠选套装","price":"￥590.00"},
+	            	{"pid":"1006","brand":"SAERTT","imgsrc":"blank/6.jpg","name":"黎珐双球滚轮波光美颜美容仪升级版套装(面部专用)","price":"￥1269.00"},
+	            	{"pid":"1007","brand":"QSDCGS","imgsrc":"blank/7.jpg","name":"凯卓愉悦津姜滚珠焕肤面膜","price":"￥760.00"},
+	            	{"pid":"1008","brand":"ADEVXV","imgsrc":"blank/8.jpg","name":"兰蔻精华肌底液(黑体夜啊啊啊)","price":"￥760.00"},
+	            	{"pid":"1009","brand":"SRGBDSS","imgsrc":"blank/9.jpg","name":"欧缇丽舒缓美肌水凝霜套装","price":"￥250.00"}
+	],
+	"makeup":[
+	            	{"pid":"1019","brand":"FSEFDF","imgsrc":"makeup/1.jpg","name":"玫珂菲水感裸妆套装","price":"￥480.00"},
+					{"pid":"1011","brand":"QW","imgsrc":"makeup/2.jpg","name":"克丽丝汀迪奥凝脂恒久无痕...","price":"￥450.00"},
+	            	{"pid":"1012","brand":"RE","imgsrc":"makeup/3.jpg","name":"三熹玉挚爱眼影盘 (丝芙啊啊啊)","price":"￥319.00"},
+	            	{"pid":"1013","brand":"VDVS","imgsrc":"makeup/4.jpg","name":"贝玲妃淘金时代蜜粉","price":"￥148.00"},
+	            	{"pid":"1014","brand":"ADFSDF","imgsrc":"makeup/5.jpg","name":"兰蔻欧琳比娅奇迹乐园无暇...","price":"￥450.00"},
+	            	{"pid":"1015","brand":"ASDASDAS","imgsrc":"makeup/6.jpg","name":"丝芙兰大眼随身眼影盘","price":"￥99.00"},
+	            	{"pid":"1016","brand":"CZCZC","imgsrc":"makeup/7.jpg","name":"芭比波朗炙恋唇膏","price":"￥240.00"},
+	            	{"pid":"1017","brand":"GRGRGR","imgsrc":"makeup/8.jpg","name":"凯卓愉悦津姜滚珠焕肤面膜","price":"￥760.00"},
+	            	{"pid":"1018","brand":"VBGGFGDS","imgsrc":"makeup/9.jpg","name":"植村秀底妆搭档尊享礼盒","price":"￥900.00"}
+	
+	],
+	"frag":[
+	            	{"pid":"1019","brand":"FSEFDF","imgsrc":"frag/1.jpg","name":"娇兰我的娇兰薰衣草礼盒","price":"￥850.00"},
+					{"pid":"1011","brand":"QW","imgsrc":"frag/2.jpg","name":"阿玛尼寄情男士香氛套装...","price":"￥820.00"},
+	            	{"pid":"1012","brand":"RE","imgsrc":"frag/3.jpg","name":"缪缪女士香氛","price":"￥640.00"},
+	            	{"pid":"1013","brand":"VDVS","imgsrc":"frag/4.jpg","name":"克丽丝汀迪奥旷野男士香水","price":"￥750.00"},
+	            	{"pid":"1014","brand":"ADFSDF","imgsrc":"frag/5.jpg","name":"莫杰雏菊女士淡香氛礼盒I......","price":"￥850.00"},
+	            	{"pid":"1015","brand":"ASDASDAS","imgsrc":"frag/6.jpg","name":"凯卓大开眼界淡香氛","price":"￥490.00"},
+	            	{"pid":"1016","brand":"CZCZC","imgsrc":"frag/7.jpg","name":"芭比波朗炙恋唇膏","price":"￥240.00"},
+	            	{"pid":"1017","brand":"GRGRGR","imgsrc":"frag/8.jpg","name":"兰蔻奇迹香氛唯爱礼盒","price":"￥750.00"},
+	            	{"pid":"1018","brand":"VBGGFGDS","imgsrc":"frag/9.jpg","name":"蒂芙尼女士香氛纽约天际版","price":"￥900.00"}
+	
+	],
+	"tools":[
+	            	{"pid":"1019","brand":"FSEFDF","imgsrc":"tools/1.jpg","name":"美妆蛋原创美妆蛋女神宝座版","price":"￥850.00"},
+					{"pid":"1011","brand":"QW","imgsrc":"tools/2.jpg","name":"丝芙兰活力彩橙美妆套刷...","price":"￥820.00"},
+	            	{"pid":"1012","brand":"RE","imgsrc":"tools/3.jpg","name":"植村秀55号粉底刷","price":"￥640.00"},
+	            	{"pid":"1013","brand":"VDVS","imgsrc":"tools/4.jpg","name":"资生堂至美粉底刷柔滑光透...","price":"￥750.00"},
+	            	{"pid":"1014","brand":"ADFSDF","imgsrc":"tools/5.jpg","name":"丝芙兰超薄化妆棉......","price":"￥850.00"},
+	            	{"pid":"1015","brand":"ASDASDAS","imgsrc":"tools/6.jpg","name":"芭比波朗携带式匀脸刷","price":"￥490.00"},
+	            	{"pid":"1016","brand":"CZCZC","imgsrc":"tools/7.jpg","name":"芭比波朗炙恋唇膏","price":"￥240.00"},
+	            	{"pid":"1017","brand":"GRGRGR","imgsrc":"tools/8.jpg","name":"芭比波朗携带式匀脸刷","price":"￥750.00"},
+	            	{"pid":"1018","brand":"VBGGFGDS","imgsrc":"tools/9.jpg","name":"美妆蛋孖宝清洁庆典套装","price":"￥900.00"}
+	
+	],
+	"man":[
+	            	{"pid":"1019","brand":"FSEFDF","imgsrc":"man/1.jpg","name":"碧欧泉男士水动力保湿臻选礼盒","price":"￥850.00"},
+					{"pid":"1011","brand":"QW","imgsrc":"man/2.jpg","name":"杜比丽夫多效合一游戏版限......","price":"￥820.00"},
+	            	{"pid":"1012","brand":"RE","imgsrc":"man/3.jpg","name":"碧欧泉男士净肤细致爽肤水...","price":"￥640.00"},
+	            	{"pid":"1013","brand":"VDVS","imgsrc":"man/4.jpg","name":"科莱丽声波洁面仪Alph......","price":"￥750.00"},
+	            	{"pid":"1014","brand":"ADFSDF","imgsrc":"man/5.jpg","name":"LAB SERIES精选.........","price":"￥850.00"},
+	            	{"pid":"1015","brand":"ASDASDAS","imgsrc":"man/6.jpg","name":"飞利浦眼部能量仪","price":"￥490.00"},
+	            	{"pid":"1016","brand":"CZCZC","imgsrc":"man/7.jpg","name":"杜比丽夫精致男士特惠套装","price":"￥240.00"},
+	            	{"pid":"1017","brand":"GRGRGR","imgsrc":"man/8.jpg","name":"朗仕俊范多效保养乳液","price":"￥750.00"},
+	            	{"pid":"1018","brand":"VBGGFGDS","imgsrc":"man/9.jpg","name":"美妆蛋孖宝清洁庆典套装","price":"￥900.00"}
+	
+	],
+	"body":[
+	            	{"pid":"1019","brand":"FSEFDF","imgsrc":"body/1.jpg","name":"馥蕾诗澄糖丰盈滋养套装","price":"￥850.00"},
+					{"pid":"1011","brand":"QW","imgsrc":"body/2.jpg","name":"兰嘉丝汀悦阳舒爽倍护身体......","price":"￥820.00"},
+	            	{"pid":"1012","brand":"RE","imgsrc":"body/3.jpg","name":"娇韵诗轻盈纤体精华乳双瓶...","price":"￥640.00"},
+	            	{"pid":"1013","brand":"VDVS","imgsrc":"body/4.jpg","name":"欧树槐花蜜面部和身体特润......","price":"￥750.00"},
+	            	{"pid":"1014","brand":"ADFSDF","imgsrc":"body/5.jpg","name":"丝芙兰超薄化妆棉......","price":"￥850.00"},
+	            	{"pid":"1015","brand":"ASDASDAS","imgsrc":"body/6.jpg","name":"飞利浦脉冲光脱毛器惠选套...","price":"￥490.00"},
+	            	{"pid":"1016","brand":"CZCZC","imgsrc":"body/7.jpg","name":"兰芝夜间保湿修护唇膜双支...","price":"￥240.00"},
+	            	{"pid":"1017","brand":"GRGRGR","imgsrc":"body/8.jpg","name":"丝芙兰薰衣草护理脚膜","price":"￥750.00"},
+	            	{"pid":"1018","brand":"VBGGFGDS","imgsrc":"body/9.jpg","name":"欧缇丽缤纷手霜套装","price":"￥900.00"}
+	
+	],
+	"hair":[
+	            	{"pid":"1019","brand":"FSEFDF","imgsrc":"hair/1.jpg","name":"馥蕾诗澄糖丰盈滋养套装","price":"￥850.00"},
+					{"pid":"1011","brand":"QW","imgsrc":"hair/2.jpg","name":"兰嘉丝汀悦阳舒爽倍护身体......","price":"￥820.00"},
+	            	{"pid":"1012","brand":"RE","imgsrc":"hair/3.jpg","name":"娇韵诗轻盈纤体精华乳双瓶...","price":"￥640.00"},
+	            	{"pid":"1013","brand":"VDVS","imgsrc":"hair/4.jpg","name":"欧树槐花蜜面部和身体特润......","price":"￥750.00"},
+	            	{"pid":"1014","brand":"ADFSDF","imgsrc":"hair/5.jpg","name":"丝芙兰超薄化妆棉......","price":"￥850.00"},
+	            	{"pid":"1015","brand":"ASDASDAS","imgsrc":"hair/6.jpg","name":"飞利浦脉冲光脱毛器惠选套...","price":"￥490.00"},
+	            	{"pid":"1016","brand":"CZCZC","imgsrc":"hair/7.jpg","name":"兰芝夜间保湿修护唇膜双支...","price":"￥240.00"},
+	            	{"pid":"1017","brand":"GRGRGR","imgsrc":"hair/8.jpg","name":"丝芙兰薰衣草护理脚膜","price":"￥750.00"},
+	            	{"pid":"1018","brand":"VBGGFGDS","imgsrc":"hair/9.jpg","name":"欧缇丽缤纷手霜套装","price":"￥900.00"}
+	
+	]
+}

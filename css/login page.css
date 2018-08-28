@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+#head{
+	width: 100%;
+	height: 90px;
+}
+.head_logo{
+	width: 1192px;
+	height: 90px;
+	margin:  0 auto;
+	line-height: 90px;
+}
+.loopage{
+	width: 100%;
+	height: 610px;
+	background: url(../img/2222.jpg);
+}
+.loopage_register{
+	width: 1192px;
+	height: 510px;
+	margin: 0 auto;
+	position: relative;
+}
+.register_input{
+	width: 360px;
+	height: 380px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-left: 30px;
+	box-sizing: border-box;
+	background: white;
+}
+.register_input input{
+	width: 300px;
+	height: 30px;
+}
+.register_input>div:nth-of-type(2)>input{
+	margin: 40px 0 20px 0;
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+.register_input>div:nth-of-type(3)>input{
+	padding-left: 25px;
+	box-sizing: border-box;
+}
+.register_input>div>i{
+	width: 20px;
+	display: inline-block;
+	height: 20px;
+	background: url(../img/LoginIn-icon.png) center center;
+	position: absolute;
+}
+.register_input>div:nth-of-type(2),.register_input>div:nth-of-type(3){
+	position: relative;
+}
+.register_input>div:nth-of-type(2)>i{
+	background-position: 0 52px;
+	left: 0;
+	top: 45px;
+}
+.register_input>div:nth-of-type(3)>i{
+	background-position: 0 72px;
+	left: 0;
+	top: 5px;
+}
+.register_input>p{
+	margin: 20px 0 20px 0;
+	color: #ccc;
+}
+.register_input>pre{
+	height: 30px;
+}
+.register_input>div:nth-of-type(4)>ul{
+	width: 170px;
+	height: 30px;
+	float: right;
+}
+.register_input>div:nth-of-type(4){
+	width: 300px;
+	height: 30px;
+	color: #ccc;
+}
+.register_input>div:nth-of-type(4)>ul>li{
+	float: left;
+}
+.register_input>div:nth-of-type(4)>ul>li:nth-of-type(2):hover{
+	color: red;
+	text-decoration: underline;
+}
+.register_input>div:nth-of-type(4)>div{
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-right: 10px;
+	background: url(../img/LoginIn-icon.png) center center;
+}
+.register_input>div:nth-of-type(4)>div:nth-of-type(1){
+	background-position:-54px 0;
+}
+.register_input>div:nth-of-type(4)>div:nth-of-type(2){
+	background-position:-54px -24px;
+}
+.register_input>div:nth-of-type(4)>div:nth-of-type(3){
+	background-position:-54px -48px;
+}
+.register_input>div:nth-of-type(4)>div:nth-of-type(1):hover{
+	background-position:-78px 0;
+}
+.register_input>div:nth-of-type(4)>div:nth-of-type(2):hover{
+	background-position:-78px -24px;
+}
+.register_input>div:nth-of-type(4)>div:nth-of-type(3):hover{
+	background-position:-78px -48px;
+}
+input[type=button]{
+	color: white;
+	border: none;
+	background: #999999;
+}

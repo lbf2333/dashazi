@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+#head{
+	width: 100%;
+	height: 100px;
+}
+.head_cont{
+	width: 1193px;
+	height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.name{
+	width: 250px;
+	height: 33px;
+	margin: 28px 0 0 10px;
+	background: url(../img/search_logo.png);
+	float: left;
+}
+.head_cont span{
+	font-size: 14px;
+	float: left;
+	margin: 45px 0 0 30px;
+}
+.register{
+	width: 115px;
+	height: 16px;
+	float: right;
+	font-size: 12px;
+	margin-top: 30px;
+}
+.register ul{
+	float: right;
+	position: relative;
+}
+.register ul li{
+	float: left;
+}
+.register p{
+	float: left;
+	color: #9d9d9d;
+}
+.dian{
+	border: 5px solid transparent;
+	border-left: 5px solid black;
+	margin-top: 3px;
+}
+.register ul:hover li:nth-of-type(1){
+	color: red;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.register ul:hover li:nth-of-type(2){
+border-left: 5px solid red;
+	
+}
+
+.content{
+	width: 100%;
+	height:797px;
+	background: url(../img/loginsSearchPassword_Bg.jpg);
+}
+.content_register{
+	width:1192px;
+	height: 797px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.form{
+	width: 730px;
+	height: 390px;
+	margin:64px 0 0 80px;
+}
+.form_verify{
+	width: 100%;
+	height: 35px;
+	margin-bottom: 35px;
+}
+.form_verify>span{
+	float: left;
+	line-height: 35px;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+}
+.form_verify>input{
+	margin: 0 25px 0 25px;
+	width: 300px;
+	height:35px;
+	float: left;
+	border: none;
+	border: 1px solid #ccc;
+}
+.form_verify>input:hover{
+	border-bottom: 1px solid black;
+}
+.form_verify>div{
+	float: left;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background: #999999;
+	color: white;
+}
+.form_verify>div>img{
+	width: 100px;
+	height: 35px;
+}
+button{
+	width:300px;
+	height: 30px;
+	margin-left: 125px;
+}
+.read{
+	width:300px;
+	height: 30px;
+	margin-left: 125px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.read p{
+	width:132px;
+	height: 30px;
+	font-size: 12px;
+}
